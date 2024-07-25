@@ -1,0 +1,78 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    background-color: white;
+    padding: 20px;
+    justify-items: center;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #242424;
+}
+label {
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 90%;
+    max-width: 90%;
+    resize: none;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #282c34;
+}
+
+input[type="text"]:active,
+textarea:active {
+    border-color: #282c34;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: #282c34;
+    padding: 15px 32px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #282c34;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: #282c34;
+    color: white;
+    border: 2px solid #282c34;
+}
